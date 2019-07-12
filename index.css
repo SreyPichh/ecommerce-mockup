@@ -1,0 +1,180 @@
+html,body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #dae2db;
+}
+.l_header {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.l_nav {
+  box-shadow: 0 2px 3px hsla(0,0%,4%,.1);
+  background-color: #ffffff;
+}
+.c_header {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+}
+.c_left__nav {
+  float: left;
+}
+.c_logo {
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  padding: 6px;
+}
+.c_right__nav {
+  float: right;
+}
+.c_right__nav h4 {
+  color: cornflowerblue;
+  text-decoration: underline;
+  padding: 4px;
+}
+.l_slider {
+
+}
+.c_slider {
+  background-image: url('./student-texting-smart-phone_925x.jpg');
+  height: 400px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.c_slider__title {
+  font-weight: bold;
+  color: #393939;
+}
+
+.l_slider__inner {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.l_main {
+  padding: 50px;
+}
+.l_main__inner {
+  width: 20%;
+  grid-column: 1;
+  grid-row: 1 / 3;  
+}
+
+.c_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+}
+.l_filter__left {
+  width: 140px;
+  height: 154px;
+  background-color: #f4f2f3;
+  padding: 20px;
+  border-radius: 6px;
+}
+.c_filter__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.c_tick__box {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-weight: bold;
+}
+.c_checkbox .c_checkbox__input {
+  display: none;
+}
+.c_checkbox .c_checkbox__input {
+  display: none;
+}
+
+.c_checkbox .c_checkbox__input:focus {
+  outline: none;
+}
+
+.c_checkbox .c_checkbox__input:checked+.c_checkbox__item .icon_widget__check__out {
+  display: none;
+}
+
+.c_checkbox .c_checkbox__input:checked+.c_checkbox__item .icon_widget__check {
+  display: inline;
+  margin-top: 5px;
+}
+
+.c_checkbox .c_checkbox__input:checked+.c_checkbox__item .c_text {
+  color: #393939;
+}
+.c_checkbox .c_checkbox__item {
+  display: inline;
+  align-items: center;
+}
+
+.c_checkbox .c_checkbox__item .icon_widget__check__out {
+  display: inline;
+}
+
+.c_checkbox .c_checkbox__item .icon_widget__check,
+.c_checkbox .c_checkbox__item .icon_widget__check__none {
+  display: none;
+}
+.c_icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+.c_icon + .c_icon {
+  margin-top: 5px;
+}
+.icon_widget__check {
+  fill: #3e99fd;
+}
+.l_label {
+  font-size: 16px;
+  margin: 5px 0px 0px 10px;
+  font-weight: bold;
+  color: #393933;
+  position: absolute;
+}
+
+/* right content */
+
+.l_content {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+.c_content {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: .75rem;
+}
+.c_card {
+  width: 100%;
+  max-width: 254px;
+  height: 100%;
+  max-height: 349px;
+}
+.c_card__title {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.c_card__img {
+  width: 100%;
+  max-width: 160px;
+  height: 200px;
+  background-color: wheat;
+}
+.c_card__container {
+  background-color: #ffffff;
+  width: 200px;
+  height: 350px;
+  display: flex;
+}
