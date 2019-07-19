@@ -189,4 +189,10 @@ html,body {
   border-radius: 16px;
   border: 1px solid #3271dc;
   background-color: transparent;
+  font-size: 14px;
+}
+
+.c_add__cart:hover {
+  background-color: #3271dc;
+  color: #ffffff;
 }
